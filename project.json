@@ -1,0 +1,71 @@
+{
+  "name": "Recipe_Scrapping_Process_RE",
+  "description": "Robotic Enterprise Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d3679952-20d4-4406-8bc6-d428684aef16",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Seq-Take_User_Input.xaml",
+      "uniqueId": "6d5c2153-bd23-466d-9eb9-bf4b92c9e3a8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Seq-Launch_Taste_Site.xaml",
+      "uniqueId": "faad5e6e-92d3-4cac-ac16-bd3ff6c3d5ba",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Seq - SearchForTheRecipe.xaml",
+      "uniqueId": "5440d07b-9863-44b2-b6bc-70997d2876af",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
